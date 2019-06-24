@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Gotham Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Bold'), url('Gotham Bold.woff') format('woff');
+}
+
+/*REGOLE GENERALI*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham Bold';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*LEFT MENU*/
+
+.left_menu {
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    height: 55px;
+    margin: 15px 10px;
+}
+
+.menu_icon li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 15px;
+    opacity: 0.7;
+}
+
+.menu_icon li:hover {
+    color: white;
+    opacity: 1;
+    border-left: 2px solid #1ED760;
+    transition: 0.3s;
+}
+
+.menu_icon img {
+    padding: 0 8px;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 125px;
+}
+
+.button button:hover {
+    width: 185px;
+    height: 40px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.button button {
+    width: 180px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.first_btn {
+    background-color: white;
+    color: black;
+    border: black;
+}
+.first_btn a {
+    color: black;
+}
+
+.secnd_btn {
+    background-color: black;
+    border:2px solid white;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+.policy {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    opacity: 0.7;
+    font-size: 10px;
+}
+
+.policy span {
+    padding: 15px;
+    border-right: 1px solid white;
+}
+
+.policy span:last-child {
+    border-right: none;
+}
+
+
+/*MENU HEADER*/
