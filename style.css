@@ -19,6 +19,25 @@ a {
     color: white;
 }
 
+body {
+    background-color: #0C0804;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+h4 {
+    color: white;
+}
+
+.radius {
+    border-radius: 150px;
+}
 /*LEFT MENU*/
 
 .left_menu {
@@ -111,5 +130,58 @@ a {
     border-right: none;
 }
 
+.policy span a:hover {
+    text-decoration: underline;
+}
+
 
 /*MENU HEADER*/
+.menu_static {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.menu_icon_static {
+    margin-top: 20px;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.menu_icon_static li a {
+    opacity: 0.7;
+}
+
+.menu_icon_static li a:hover{
+    opacity: 1.0;
+    border-bottom: 1.5px solid #1DB954;
+    transition: 0.3s;
+}
+/*MENU ARTISTS*/
+.menu_artists {
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.icon_artists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.artists {
+    width: 160px;
+    height: 180px;
+    margin: 25px;
+    text-align: center;
+}
+
+.artists img {
+    width: 150px;
+    height: 150px;
+}
